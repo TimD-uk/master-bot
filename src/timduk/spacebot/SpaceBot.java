@@ -56,15 +56,15 @@ public class SpaceBot extends ListenerAdapter
         List<Role> roles = mem.getRoles();
         if (mem.getUser().getId().equals(properties.get().TimDukId.toString()))
             return true;
-        if (roles.contains(properties.get().spaceHeadRoleId.toString()))
+        if (roles.contains(spaceJda.getGuildById(properties.get().spaceGuildId).getRoleById(properties.get().spaceHeadRoleId)))
             return true;
 
-        if (roles.contains(properties.get().spaceModerRoleId.toString()))
+        if (roles.contains(spaceJda.getGuildById(properties.get().spaceGuildId).getRoleById(properties.get().spaceModerRoleId)))
             return true;
 
         for (Long each : properties.get().spaceOtherControlRolesId)
         {
-            if (roles.contains(each.toString()))
+            if (roles.contains(spaceJda.getGuildById(properties.get().spaceGuildId).getRoleById(each)))
                 return true;
         }
         return false;

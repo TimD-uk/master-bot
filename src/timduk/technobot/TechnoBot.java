@@ -98,15 +98,15 @@ public class TechnoBot extends ListenerAdapter
         List<Role> roles = mem.getRoles();
         if (mem.getUser().getId().equals(properties.get().TimDukId.toString()))
             return true;
-        if (roles.contains(properties.get().technoHeadRoleId.toString()))
+        if (roles.contains(technoJda.getGuildById(properties.get().technoGuildId).getRoleById(properties.get().technoHeadRoleId)))
             return true;
 
-        if (roles.contains(properties.get().technoModerRoleId.toString()))
+        if (roles.contains(technoJda.getGuildById(properties.get().technoGuildId).getRoleById(properties.get().technoModerRoleId)))
             return true;
 
         for (Long each : properties.get().technoOtherControlRolesId)
         {
-            if (roles.contains(each.toString()))
+            if (roles.contains(technoJda.getGuildById(properties.get().technoGuildId).getRoleById(each)))
                 return true;
         }
         return false;
