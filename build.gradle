@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
+
+mainClassName = 'timduk.bot'
+group 'timduk'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile("net.dv8tion:JDA:3.7.1_385")
+    // https://mvnrepository.com/artifact/org.quartz-scheduler/quartz
+    compile group: 'org.quartz-scheduler', name: 'quartz', version: '2.3.0'
+    compile "org.slf4j:slf4j-api:1.6.1"
+    compile "org.slf4j:slf4j-simple:1.6.1"
+
+}
