@@ -1,18 +1,17 @@
 package timduk;
 
-import timduk.spacebot.SpaceBot;
-import timduk.technobot.TechnoBot;
+import timduk.leonid.Leonid;
 import timduk.utils.log;
+
+import java.util.TimeZone;
 
 public class bot
 {
     public static void main(String[] args)
     {
         log.info("Bot is starting");
+        TimeZone.setDefault(TimeZone.getTimeZone("Europe/Moscow"));
 
-        properties.get().load();
-
-        SpaceBot.load();
-        TechnoBot.load();
+        Leonid.load();
     }
 }

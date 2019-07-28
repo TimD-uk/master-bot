@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/../compiled</output-path>
     <root id="archive" name="serversBots.jar">
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/../master-bot/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
       </element>
       <element id="module-output" name="serversBots_main" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/club.minnced/opus-java-api/1.0.2/e6e5afd72b5305356ef6d3aa95e84790cd340828/opus-java-api-1.0.2.jar" path-in-jar="/" />

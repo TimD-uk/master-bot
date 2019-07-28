@@ -6,5 +6,6 @@ public class log
     {
         String str = o.toString();
         System.out.println(str);
+        //TODO сделать красиво
     }
 }

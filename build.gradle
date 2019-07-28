@@ -28,5 +28,6 @@ dependencies {
     compile group: 'org.quartz-scheduler', name: 'quartz', version: '2.3.0'
     compile "org.slf4j:slf4j-api:1.6.1"
     compile "org.slf4j:slf4j-simple:1.6.1"
+    compile ("com.oracle:ojdbc7:12.1.0.1")
 
 }
