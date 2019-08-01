@@ -3,12 +3,13 @@ package timduk.leonid.commands;
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.Message;
-import timduk.leonid.Settings;
+import timduk.leonid.Leonid;
 import timduk.leonid.ext.Chat;
 import timduk.leonid.ext.Command;
-import timduk.utils.log;
+import timduk.leonid.utils.log;
 
 import java.awt.*;
+import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -16,7 +17,16 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class mute extends Command {
-    public mute() {
+    public mute() throws SQLException
+    {
+
+        if (!Leonid.database.showTables(Leonid.settings.db_tableNameMute))
+        {
+            Leonid.database.createTable(
+                    String.format("`%s`", Leonid.settings.db_tableNameMute),
+                    "`ID` BIGINT(20) NOT NULL, `timestamp_begin` BIGINT(20) NOT NULL, `timestamp_end` BIGINT(20) NOT NULL"
+            );
+        }
         log.info("Command 'mute' registered");
     }
 
@@ -44,8 +54,8 @@ public class mute extends Command {
             return; //TODO уведомление, что не в той форме
         }
 
-        msg.getGuild().getController().addSingleRoleToMember(member, msg.getGuild().getRoleById(Settings.get().technoMuteRoleId)).queue();
-        Settings.get().mutedUsers.put(member.getUser().getIdLong(), time); //Проверка, если ли юзер в листе + занесение в файлик
+        msg.getGuild().getController().addSingleRoleToMember(member, msg.getGuild().getRoleById(Leonid.settings.technoMuteRoleId)).queue();
+        Leonid.settings.mutedUsers.put(member.getUser().getIdLong(), time);
 
         msg.getChannel().sendMessage(
                 new EmbedBuilder()

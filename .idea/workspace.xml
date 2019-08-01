@@ -7,64 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58697485-2fc0-4c01-9620-093b00782764" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/ActionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/CommandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/Leonid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/commands/mute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/commands/nick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/commands/spit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/commands/tell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/database/delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/database/insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/database/select.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/database/update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/ext/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/ext/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/modules/clearMuteJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/modules/crontab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/modules/randomColorJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/serversBots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/serversBots.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/modules/keepAliveJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/modules/luckyBoyJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/modules/saveMuteJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timduk/leonid/utils/log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/timduk/bot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/timduk/properties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/spacebot/SpaceBot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/spacebot/commands/news.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/spacebot/commands/someone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/spacebot/commands/tell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/spacebot/modules/ChatTriggers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/spacebot/modules/CommandManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/spacebot/modules/MemberData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/technobot/TechnoBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/timduk/technobot/TechnoBot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/technobot/commands/mute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/timduk/technobot/commands/mute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/technobot/commands/news.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/timduk/technobot/commands/news.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/technobot/commands/tell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/timduk/technobot/commands/tell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/technobot/jobs/luckyJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/timduk/technobot/jobs/luckyJob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/technobot/modules/CommandManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/timduk/technobot/modules/CommandManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/properties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/spacebot/SpaceBot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/spacebot/commands/news.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/spacebot/commands/someone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/spacebot/commands/tell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/spacebot/modules/ChatTriggers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/spacebot/modules/CommandManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/spacebot/modules/MemberData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/TechnoBot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/commands/mute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/commands/news.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/commands/someone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/commands/tell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/jobs/luckyJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/jobs/muteJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/modules/ChatTriggers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/modules/CommandManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/modules/JobManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/technobot/modules/MemberData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timduk/utils/log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/utils/log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technoMuted.properties" beforeDir="false" afterPath="$PROJECT_DIR$/technoMuted.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/timduk/utils/log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/bot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/CommandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/Leonid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/Leonid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/commands/mute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/commands/mute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/commands/nick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/commands/nick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/commands/spit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/commands/spit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/commands/tell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/commands/tell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/database/delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/database/insert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/database/select.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/database/update.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/modules/clearMuteJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/modules/clearMuteJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/modules/crontab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/modules/CronTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/leonid/modules/randomColorJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timduk/leonid/modules/randomColorJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/properties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timduk/utils/log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technoMuted.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -91,11 +59,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/timduk/leonid/Leonid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="368">
+              <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/timduk/leonid/DataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/keepAliveJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/timduk/leonid/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2136">
-              <caret line="100" column="67" selection-start-line="100" selection-start-column="67" selection-end-line="100" selection-end-column="67" />
+            <state relative-caret-position="186">
+              <caret line="22" column="107" selection-start-line="22" selection-start-column="107" selection-end-line="22" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,36 +108,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/timduk/leonid/ext/Command.java">
+        <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/randomColorJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1752">
-              <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+            <state relative-caret-position="224">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/timduk/leonid/CommandManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="984">
-              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/clearMuteJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,23 +136,14 @@
         <option value="TimDuk" />
       </list>
     </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/timduk/spacebot/SpaceBot.java" />
-        <option value="$PROJECT_DIR$/src/timduk/galaxybot/commands/news.java" />
-        <option value="$PROJECT_DIR$/src/timduk/galaxybot/GalaxyBot.java" />
-        <option value="$PROJECT_DIR$/src/timduk/galaxybot/TestBot.java" />
-        <option value="$PROJECT_DIR$/src/timduk/technobot/jobs/luckyJob.java" />
-        <option value="$PROJECT_DIR$/src/timduk/technobot/commands/tell.java" />
-        <option value="$PROJECT_DIR$/src/timduk/technobot/modules/logActions.java" />
-        <option value="$PROJECT_DIR$/src/timduk/technobot/events/onReady.java" />
-        <option value="$PROJECT_DIR$/src/timduk/technobot/commands/mute.java" />
         <option value="$PROJECT_DIR$/src/timduk/technobot/modules/MySQL.java" />
         <option value="$PROJECT_DIR$/src/timduk/testbot/TestBot.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/timduk/technobot/modules/LogActions.java" />
         <option value="$PROJECT_DIR$/src/timduk/technobot/modules/CommandManager.java" />
         <option value="$PROJECT_DIR$/src/timduk/technobot/modules/JobManager.java" />
@@ -207,21 +168,31 @@
         <option value="$PROJECT_DIR$/src/timduk/leonid/ext/CommandData.java" />
         <option value="$PROJECT_DIR$/src/timduk/leonid/commands/randomColor.java" />
         <option value="$PROJECT_DIR$/src/timduk/leonid/modules/randomColor.java" />
-        <option value="$PROJECT_DIR$/src/timduk/utils/log.java" />
-        <option value="$PROJECT_DIR$/src/timduk/leonid/CommandManager.java" />
-        <option value="$PROJECT_DIR$/src/timduk/leonid/modules/randomColorJob.java" />
-        <option value="$PROJECT_DIR$/src/timduk/leonid/Leonid.java" />
         <option value="$PROJECT_DIR$/src/timduk/leonid/ext/Chat.java" />
-        <option value="$PROJECT_DIR$/src/timduk/leonid/commands/tell.java" />
-        <option value="$PROJECT_DIR$/src/timduk/leonid/commands/spit.java" />
-        <option value="$PROJECT_DIR$/src/timduk/leonid/commands/nick.java" />
         <option value="$PROJECT_DIR$/src/timduk/leonid/modules/clearMute.java" />
-        <option value="$PROJECT_DIR$/src/timduk/leonid/ext/Command.java" />
-        <option value="$PROJECT_DIR$/src/timduk/leonid/Settings.java" />
         <option value="$PROJECT_DIR$/src/timduk/bot.java" />
         <option value="$PROJECT_DIR$/src/timduk/leonid/modules/crontab.java" />
-        <option value="$PROJECT_DIR$/src/timduk/leonid/modules/clearMuteJob.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/Database.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/ext/Command.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/commands/nick.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/commands/tell.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/timduk/utils/log.java" />
         <option value="$PROJECT_DIR$/src/timduk/leonid/commands/mute.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/commands/spit.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/modules/luckyBotJob.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/modules/luckyBoyJob.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/modules/Date.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/utils/log.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/modules/keepAliveJob.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/modules/CronTab.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/modules/saveMuteJob.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/Settings.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/modules/clearMuteJob.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/modules/randomColorJob.java" />
+        <option value="$PROJECT_DIR$/src/timduk/leonid/Leonid.java" />
       </list>
     </option>
   </component>
@@ -232,8 +203,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="226" />
+    <option name="y" value="-22" />
     <option name="width" value="1456" />
     <option name="height" value="886" />
   </component>
@@ -243,7 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,20 +231,12 @@
               <item name="serversBots" type="b2602c69:ProjectViewProjectNode" />
               <item name="serversBots" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="timduk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serversBots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serversBots" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="timduk" type="462c0819:PsiDirectoryNode" />
               <item name="leonid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serversBots" type="b2602c69:ProjectViewProjectNode" />
               <item name="serversBots" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="timduk" type="462c0819:PsiDirectoryNode" />
               <item name="leonid" type="462c0819:PsiDirectoryNode" />
               <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -281,15 +244,21 @@
               <item name="serversBots" type="b2602c69:ProjectViewProjectNode" />
               <item name="serversBots" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="timduk" type="462c0819:PsiDirectoryNode" />
               <item name="leonid" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serversBots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serversBots" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="leonid" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,18 +266,22 @@
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549524216937" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.14542611" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="timduk.technocraft" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dmitr\OneDrive\InteliJ IDEA\master-bot" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="timduk.leonid" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="timduk.leonid.modules" />
+      <recent name="timduk.technocraft" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -330,22 +303,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="timduk.bot" />
+    <configuration name="Leonid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timduk.leonid.Leonid" />
       <module name="serversBots_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="timduk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -368,7 +340,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.bot" />
+        <item itemvalue="Application.Leonid" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537205148169</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update 2.0">
+      <created>1564327170772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564327170772</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -418,9 +397,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24600638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -429,16 +407,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32861805" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32861805" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32861805" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50143266" side_tool="true" weight="0.32861805" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49856734" weight="0.3301179" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32861805" />
-      <window_info anchor="bottom" id="Statistic" order="11" weight="0.3290461" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275488" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3275488" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4978678" weight="0.3297062" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
+      <window_info anchor="bottom" id="Statistic" order="11" weight="0.36876357" />
       <window_info anchor="bottom" id="Build" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -455,6 +433,46 @@
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <ignored-roots>
@@ -469,50 +487,17 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/timduk/galaxybot/modules/ChatTriggers.java" />
-    <entry file="file://$PROJECT_DIR$/src/timduk/galaxybot/commands/news.java" />
-    <entry file="file://$PROJECT_DIR$/src/timduk/galaxybot/commands/someone.java" />
-    <entry file="file://$PROJECT_DIR$/src/timduk/galaxybot/commands/tell.java" />
-    <entry file="file://$PROJECT_DIR$/src/timduk/technobot/events/onReady.java" />
-    <entry file="file://$PROJECT_DIR$/src/timduk/technobot/jobs/luckyJob.java" />
     <entry file="file://$PROJECT_DIR$/src/timduk/technobot/modules/JobManager.java" />
     <entry file="file://$PROJECT_DIR$/src/timduk/technobot/commands/news.java" />
     <entry file="file://$PROJECT_DIR$/src/timduk/technobot/commands/tell.java" />
     <entry file="file://$PROJECT_DIR$/src/timduk/technobot/commands/mute.java" />
     <entry file="file://$PROJECT_DIR$/src/timduk/testbot/TestBot.java" />
-    <entry file="file://$PROJECT_DIR$/technoMuted.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/technoMuted.properties" />
     <entry file="file://$PROJECT_DIR$/src/timduk/technobot/TechnoBot.java" />
     <entry file="file://$PROJECT_DIR$/src/timduk/technocraft/thisClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/database/select.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/database/update.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/database/insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/database/select.java" />
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/database/update.java" />
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/database/insert.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/3.7.1_385/e21042bd0d5ce3fd1c09b4758bf8e3e105315652/JDA-3.7.1_385-sources.jar!/net/dv8tion/jda/core/events/ReadyEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -574,27 +559,52 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/utils/log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/timduk/technobot/modules/CommandManager.java" />
     <entry file="file://$PROJECT_DIR$/src/timduk/technobot/commands/someone.java" />
     <entry file="file://$PROJECT_DIR$/src/timduk/leonid/commands/randomColor.java" />
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/ActionManager.java">
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/database/delete.java" />
+    <entry file="file://$PROJECT_DIR$/src/timduk/technobot/modules/LogActions.java" />
+    <entry file="file://$PROJECT_DIR$/src/timduk/technobot/modules/MySQL.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.3.0/5f4aa836b09f44d586550fa7a7629273c16c0f17/quartz-2.3.0-sources.jar!/org/quartz/Job.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="24">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/properties.java" />
+    <entry file="file://$PROJECT_DIR$/src/timduk/bot.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="2938" column="25" selection-start-line="2938" selection-start-column="25" selection-end-line="2938" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/commands/nick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="80" column="39" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/commands/tell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -603,123 +613,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/timduk/leonid/ext/Chat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/commands/tell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="28" column="54" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/commands/spit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="69" column="255" lean-forward="true" selection-start-line="69" selection-start-column="255" selection-end-line="75" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/randomColorJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="81" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/database/delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/technobot/modules/LogActions.java" />
-    <entry file="file://$PROJECT_DIR$/src/timduk/technobot/modules/MySQL.java" />
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/crontab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/bot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/commands/nick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/commands/mute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="42" column="88" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/Leonid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2136">
-          <caret line="100" column="67" selection-start-line="100" selection-start-column="67" selection-end-line="100" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/timduk/leonid/ext/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1752">
-          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+        <state relative-caret-position="-1200">
+          <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -728,25 +630,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/timduk/leonid/CommandManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        <state relative-caret-position="329">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="18" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.3.0/5f4aa836b09f44d586550fa7a7629273c16c0f17/quartz-2.3.0-sources.jar!/org/quartz/Job.java">
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/commands/spit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        <state relative-caret-position="330">
+          <caret line="67" column="235" lean-forward="true" selection-start-line="67" selection-start-column="235" selection-end-line="67" selection-end-column="235" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/commands/mute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="55" column="139" selection-start-line="55" selection-start-column="139" selection-end-line="55" selection-end-column="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/ActionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/utils/log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="139" selection-start-line="10" selection-start-column="139" selection-end-line="10" selection-end-column="139" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/clearMuteJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="144">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/saveMuteJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/luckyBoyJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="39" column="198" selection-start-line="39" selection-start-column="198" selection-end-line="39" selection-end-column="198" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="22" column="107" selection-start-line="22" selection-start-column="107" selection-end-line="22" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/randomColorJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/CronTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/modules/keepAliveJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timduk/leonid/Leonid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

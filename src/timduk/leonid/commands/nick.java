@@ -4,10 +4,10 @@ import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.Message;
 import net.dv8tion.jda.core.entities.Role;
-import timduk.leonid.Settings;
+import timduk.leonid.Leonid;
 import timduk.leonid.ext.Chat;
 import timduk.leonid.ext.Command;
-import timduk.utils.log;
+import timduk.leonid.utils.log;
 
 import java.awt.*;
 
@@ -35,10 +35,10 @@ public class nick extends Command {
 
         Member member = msg.getMentionedMembers().get(0);
         for (Role role : member.getRoles()) {
-            if (role.getIdLong() == Settings.get().technoHeadRoleId
-                    || role.getIdLong() == Settings.get().technoTimDukRoleId
-                    || role.getIdLong() == Settings.get().technoModerRoleId
-                    || role.getIdLong() == Settings.get().technoLowModerRoleId
+            if (role.getIdLong() == Leonid.settings.technoHeadRoleId
+                    || role.getIdLong() == Leonid.settings.technoTimDukRoleId
+                    || role.getIdLong() == Leonid.settings.technoModerRoleId
+                    || role.getIdLong() == Leonid.settings.technoLowModerRoleId
             ) {
                 //TODO послать, что ты пидор и нельзя менять ему ник
                 return;
@@ -53,7 +53,7 @@ public class nick extends Command {
                 .queue();
 
         msg.getGuild()
-                .getTextChannelById(Settings.get().technoCraftGeneralChannelId)
+                .getTextChannelById(Leonid.settings.technoCraftGeneralChannelId)
                 .sendMessage(member.getAsMention() + ", " + msg.getMember().getAsMention() + " поменял твой ник")
                 .queue();
 
@@ -68,7 +68,8 @@ public class nick extends Command {
 
     private String getAlias(String fullText) {
         for (String alias : this.getAliases()) {
-            if (fullText.startsWith(Settings.get().cmdPrefix + alias)) {
+            if (fullText.startsWith(Leonid.settings.cmdPrefix + alias))
+            {
                 return alias;
             }
         }
@@ -78,7 +79,7 @@ public class nick extends Command {
     private String[] getArgs(String fullRawText) {
         return fullRawText
                 .substring(
-                        Settings.get().cmdPrefix.length()
+                        Leonid.settings.cmdPrefix.length()
                                 + getAlias(fullRawText).length()
                                 + 1
                 )

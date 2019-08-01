@@ -11,7 +11,7 @@ sourceSets {
     }
 }
 
-mainClassName = 'timduk.bot'
+mainClassName = 'timduk.leonid.Leonid'
 group 'timduk'
 version '1.0'
 
@@ -29,5 +29,8 @@ dependencies {
     compile "org.slf4j:slf4j-api:1.6.1"
     compile "org.slf4j:slf4j-simple:1.6.1"
     compile ("com.oracle:ojdbc7:12.1.0.1")
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
+
 
 }

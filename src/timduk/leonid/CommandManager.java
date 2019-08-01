@@ -2,6 +2,7 @@ package timduk.leonid;
 
 import net.dv8tion.jda.core.entities.Message;
 import timduk.leonid.ext.Command;
+import timduk.leonid.utils.log;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,15 +12,17 @@ public class CommandManager {
     private Map<String, String> allAlias = new HashMap<>();
 
     public CommandManager() {
-        if (!Settings.get().CommandModule)
+        if (!Leonid.settings.enableCmdModule)
             return;
         // Регистрация команд - вручную
         this.compileAllAlias();
+        log.info("Command manager initialized");
     }
 
 
     private void compileAllAlias() {
-        for (Map.Entry<String, Command> command : Settings.get().commands.entrySet()) {
+        for (Map.Entry<String, Command> command : Leonid.settings.commands.entrySet())
+        {
             for (String string : command.getValue().getAliases()) {
                 allAlias.put(string, command.getKey());
             }
@@ -32,7 +35,8 @@ public class CommandManager {
 
     private String whatCommand(String fullText) {
         for (Map.Entry<String, String> alias : this.getAllAlias().entrySet()) {
-            if (Pattern.compile(Settings.get().cmdPrefix + alias.getKey() + "( ?|$)").matcher(fullText).find()) {
+            if (Pattern.compile(Leonid.settings.cmdPrefix + alias.getKey() + "( ?|$)").matcher(fullText).find())
+            {
                 return alias.getValue();
             }
         }
@@ -40,12 +44,12 @@ public class CommandManager {
     }
 
     public void checkChat(Message message) {
-        if (!Settings.get().CommandModule)
+        if (!Leonid.settings.enableCmdModule)
             return;
         String cmdName = whatCommand(message.getContentDisplay());
         if (cmdName == null)
             return;
 
-        Settings.get().commands.get(cmdName).execute(message);
+        Leonid.settings.commands.get(cmdName).execute(message);
     }
 }

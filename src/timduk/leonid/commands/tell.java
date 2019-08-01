@@ -2,10 +2,10 @@ package timduk.leonid.commands;
 
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Message;
-import timduk.leonid.Settings;
+import timduk.leonid.Leonid;
 import timduk.leonid.ext.Chat;
 import timduk.leonid.ext.Command;
-import timduk.utils.log;
+import timduk.leonid.utils.log;
 
 import java.awt.*;
 
@@ -31,7 +31,7 @@ public class tell extends Command {
             return; //TODO сообщение, что недостаточно аргументов + удалять сообщение, что было от пользователя, а так же сообщение, что недостаточно аргументов на 20 секунд
         }
 
-        msg.getGuild().getTextChannelById(Settings.get().technoCraftGeneralChannelId).sendMessage(this.getArgs(msg.getContentDisplay())).queue();
+        msg.getGuild().getTextChannelById(Leonid.settings.technoCraftGeneralChannelId).sendMessage(this.getArgs(msg.getContentDisplay())).queue();
         msg.getChannel().sendMessage(
                 new EmbedBuilder()
                         .addField("Leonid Arkadyevich", Chat.BOLD + "Сообщение отправлено" + Chat.BOLD, false)
@@ -42,7 +42,8 @@ public class tell extends Command {
 
     private String getAlias(String fullText) {
         for (String alias : this.getAliases()) {
-            if (fullText.startsWith(Settings.get().cmdPrefix + alias)) {
+            if (fullText.startsWith(Leonid.settings.cmdPrefix + alias))
+            {
                 return alias;
             }
         }
@@ -50,7 +51,7 @@ public class tell extends Command {
     }
 
     private String getArgs(String fullText) {
-        return fullText.substring(Settings.get().cmdPrefix.length() + getAlias(fullText).length() + 1);
+        return fullText.substring(Leonid.settings.cmdPrefix.length() + getAlias(fullText).length() + 1);
     }
 
 }

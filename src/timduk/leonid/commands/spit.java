@@ -3,10 +3,11 @@ package timduk.leonid.commands;
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.Message;
-import timduk.leonid.Settings;
+import net.dv8tion.jda.core.entities.Role;
+import timduk.leonid.Leonid;
 import timduk.leonid.ext.Chat;
 import timduk.leonid.ext.Command;
-import timduk.utils.log;
+import timduk.leonid.utils.log;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -59,7 +60,14 @@ public class spit extends Command {
 
         Member randMem = commonList.get(rand(commonList.size()));
 
-        msg.getGuild().getTextChannelById(Settings.get().technoCraftGeneralChannelId).sendMessage(msg.getAuthor().getAsMention() + " плюнул в сторону и попал в " + Chat.HIDE + randMem.getAsMention() + Chat.HIDE + " \\\uD83D\uDCA6 \\\uD83D\uDCA6").queue();
+        Role role = msg.getGuild().getRoleById(Leonid.settings.technoLuckyBoyRoleId);
+        if (randMem.getRoles().contains(role))
+        {
+            msg.getGuild().getTextChannelById(Leonid.settings.technoCraftGeneralChannelId).sendMessage(msg.getGuild().getRoleById(Leonid.settings.technoLuckyBoyRoleId).getAsMention() + " плюнул в сторону и попал в " + Chat.HIDE + randMem.getAsMention() + Chat.HIDE + " \\\uD83D\uDCA6 \\\uD83D\uDCA6").queue();
+        } else
+        {
+            msg.getGuild().getTextChannelById(Leonid.settings.technoCraftGeneralChannelId).sendMessage("Какой-то поц плюнул в сторону и попал в " + Chat.HIDE + randMem.getAsMention() + Chat.HIDE + " \uD83D\uDCA6 \uD83D\uDCA6").queue();
+        }
         msg.getChannel().sendMessage(
                 new EmbedBuilder()
                         .addField("Leonid Arkadyevich", Chat.BOLD + "Вы плюнули в " + randMem.getAsMention() + Chat.BOLD, false)
